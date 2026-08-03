@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
 
 type ModuleKey = "nlp" | "transformer" | "llm" | "rag" | "agent";
 
@@ -403,7 +404,7 @@ export default function Home() {
             <p>{currentWeek.goal}</p>
             <div className="today-actions">
               {currentDay === 1 && (
-                <a className="primary-button" href="/day/001">打开 Day 001 学习卡</a>
+                <Link className="primary-button" href="/day/001">打开 Day 001 学习卡</Link>
               )}
               <button
                 className={currentDay === 1 ? "secondary-button compact" : "primary-button"}
@@ -472,7 +473,7 @@ export default function Home() {
                         <span className="topic-day">D{String(day).padStart(3, "0")}</span>
                         <span className="topic-name">{topic.replace(/^(深入|实验)：/, "")}</span>
                         {day === 1 ? (
-                          <a className="lesson-link" href="/day/001" onClick={(event) => event.stopPropagation()}>打开</a>
+                          <Link className="lesson-link" href="/day/001" onClick={(event) => event.stopPropagation()}>打开</Link>
                         ) : (
                           <span className={`topic-type ${type}`}>{type}</span>
                         )}

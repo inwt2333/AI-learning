@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 const experimentCode = `text = "AI学习🙂"
 
@@ -57,12 +58,12 @@ export default function Day001() {
   return (
     <main className="lesson-page">
       <header className="lesson-header">
-        <a className="brand" href="/">
+        <Link className="brand" href="/">
           <span className="brand-mark">知</span>
           <span>一日一知</span>
-        </a>
+        </Link>
         <div className="lesson-nav">
-          <a href="/">学习路线</a>
+          <Link href="/">学习路线</Link>
           <span>DAY 001 / 112</span>
         </div>
       </header>
@@ -219,7 +220,7 @@ export default function Day001() {
           </section>
 
           <nav className="lesson-footer-nav" aria-label="课程翻页">
-            <a href="/">← 返回学习路线</a>
+            <Link href="/">← 返回学习路线</Link>
             <span>Day 002 将在 Day 001 笔记订正后开放</span>
           </nav>
         </div>
