@@ -402,8 +402,11 @@ export default function Home() {
             <h3>{currentTopic.replace(/^(深入|实验)：/, "")}</h3>
             <p>{currentWeek.goal}</p>
             <div className="today-actions">
+              {currentDay === 1 && (
+                <a className="primary-button" href="/day/001">打开 Day 001 学习卡</a>
+              )}
               <button
-                className="primary-button"
+                className={currentDay === 1 ? "secondary-button compact" : "primary-button"}
                 type="button"
                 onClick={() => toggleDay(currentDay)}
               >
@@ -468,7 +471,11 @@ export default function Home() {
                         <span className="checkmark" aria-hidden="true" />
                         <span className="topic-day">D{String(day).padStart(3, "0")}</span>
                         <span className="topic-name">{topic.replace(/^(深入|实验)：/, "")}</span>
-                        <span className={`topic-type ${type}`}>{type}</span>
+                        {day === 1 ? (
+                          <a className="lesson-link" href="/day/001" onClick={(event) => event.stopPropagation()}>打开</a>
+                        ) : (
+                          <span className={`topic-type ${type}`}>{type}</span>
+                        )}
                       </label>
                     );
                   })}
