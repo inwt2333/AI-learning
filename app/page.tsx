@@ -339,37 +339,23 @@ export default function Home() {
           <span>一日一知</span>
         </a>
         <nav aria-label="主导航">
-          <a href="#today">今日</a>
+          <a href="#today">今天</a>
           <a href="#roadmap">路线</a>
-          <a href="#method">方法</a>
+          <a href="#method">学习方法</a>
           <a href="#resources">资料</a>
         </nav>
       </header>
 
       <section className="hero" id="top">
         <div className="hero-copy">
-          <p className="eyebrow">NLP · LLM · RAG · AGENT</p>
-          <h1>
-            每天弄懂一个
-            <span> AI 技术细节</span>
-          </h1>
+          <p className="eyebrow">个人学习笔记 · NLP / LLM / RAG / Agent</p>
+          <h1>AI 学习计划</h1>
           <p className="hero-lead">
-            从“听说过”走到“能解释、能实验、能实现”。这是一条为概念不够牢固、代码能力仍在成长的学习路线。
+            每天学习一个技术细节，从概念、原理到代码实验，逐步把“听说过”变成真正理解。
           </p>
           <div className="hero-actions">
-            <a className="primary-button" href="#today">开始今天的学习</a>
-            <a className="text-link" href="#roadmap">查看 112 天路线 <span>→</span></a>
-          </div>
-        </div>
-        <div className="hero-panel" aria-label="学习计划概览">
-          <div className="orbit orbit-one" />
-          <div className="orbit orbit-two" />
-          <div className="hero-number">112</div>
-          <div className="hero-unit">天学习计划</div>
-          <div className="hero-stats">
-            <span><strong>16</strong> 个主题周</span>
-            <span><strong>32</strong> 个深入节点</span>
-            <span><strong>16</strong> 个实践实验</span>
+            <a className="primary-button" href="#today">继续今天的学习</a>
+            <a className="text-link" href="#roadmap">查看完整路线 <span>→</span></a>
           </div>
         </div>
       </section>
@@ -388,8 +374,8 @@ export default function Home() {
       <section className="section today-section" id="today">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">TODAY&apos;S FOCUS</p>
-            <h2>今天，只解决一个问题</h2>
+            <p className="eyebrow">今日任务</p>
+            <h2>今天学什么</h2>
           </div>
           <span className="day-pill">DAY {String(currentDay).padStart(3, "0")}</span>
         </div>
@@ -428,8 +414,8 @@ export default function Home() {
       <section className="section" id="roadmap">
         <div className="section-heading roadmap-heading">
           <div>
-            <p className="eyebrow">THE ROADMAP</p>
-            <h2>16 周知识路线</h2>
+            <p className="eyebrow">学习路线</p>
+            <h2>16 周，112 个知识点</h2>
             <p className="section-intro">基础不跳过，但快速重建；每周向下深入两层，再用一个实验收束。</p>
           </div>
           <div className="filters" role="group" aria-label="筛选学习模块">
@@ -490,8 +476,8 @@ export default function Home() {
       <section className="method-section" id="method">
         <div className="section method-inner">
           <div className="method-copy">
-            <p className="eyebrow light">THE METHOD</p>
-            <h2>不是读完，而是验证理解</h2>
+            <p className="eyebrow light">学习方法</p>
+            <h2>用实验验证理解</h2>
             <p>每天 60–90 分钟。代码从阅读、补全开始，逐步过渡到局部实现和系统组合。</p>
             <div className="time-grid">
               <div><strong>15′</strong><span>概念与定义</span></div>
@@ -511,8 +497,8 @@ export default function Home() {
 
       <section className="section notes-section">
         <div className="notes-copy">
-          <p className="eyebrow">YOUR NOTES</p>
-          <h2>记录认知发生变化的地方</h2>
+          <p className="eyebrow">我的笔记</p>
+          <h2>记录真正学会了什么</h2>
           <p>网站不只收藏正确答案，也保留“原来怎么想、哪里想错了、实验怎样改变理解”。你完成初稿后，我会检查事实、推导、代码和资料，再整理为正式页面。</p>
           <button type="button" className="secondary-button" onClick={copyTemplate}>
             {copied ? "已复制笔记模板" : "复制每日笔记模板"}
@@ -524,8 +510,8 @@ export default function Home() {
       <section className="section resources-section" id="resources">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">CORE SOURCES</p>
-            <h2>少而可靠的主资料</h2>
+            <p className="eyebrow">参考资料</p>
+            <h2>主要学习来源</h2>
           </div>
           <p className="section-intro">每天只指定对应章节或论文小节，不要求一次通读整本书。</p>
         </div>
@@ -543,7 +529,7 @@ export default function Home() {
 
       <footer>
         <div className="brand"><span className="brand-mark">知</span><span>一日一知</span></div>
-        <p>从有所耳闻，到真正掌握。</p>
+        <p>仅用于个人学习、实验与复盘。</p>
         <a href="#top">回到顶部 ↑</a>
       </footer>
     </main>
