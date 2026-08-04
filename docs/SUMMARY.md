@@ -1,4 +1,4 @@
-# Summary
+# Table of contents
 
 * [开始](README.md)
 
@@ -15,8 +15,8 @@
 
 ## 后续部分
 
-* 第 2–4 周：经典 NLP 与序列模型
-* 第 5–7 周：Transformer
-* 第 8–11 周：LLM
-* 第 12–14 周：RAG
-* 第 15–16 周：Agent
+* [第 2–4 周：经典 NLP 与序列模型](hou-xu-bu-fen/di-24-zhou-jing-dian-nlp-yu-xu-lie-mo-xing.md)
+* [第 5–7 周：Transformer](hou-xu-bu-fen/di-57-zhou-transformer.md)
+* [第 8–11 周：LLM](hou-xu-bu-fen/di-811-zhou-llm.md)
+* [第 12–14 周：RAG](hou-xu-bu-fen/di-1214-zhou-rag.md)
+* [第 15–16 周：Agent](hou-xu-bu-fen/di-1516-zhou-agent.md)
