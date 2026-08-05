@@ -8,7 +8,11 @@
 
 - 16 周、112 个技术细节的学习路线
 - 每日概念、原理与代码实验
-- 学习笔记模板
-- 经过订正的正式学习笔记
+- 面向实习面试的原理追问、手写题与项目故障分析
+- 由 GitBook 修改后直接沉淀的正式学习笔记
 
-当前已完成：[Day 001：Unicode、字符、字节和 Token](./docs/week-01/day-001.md)
+当前已完成：[Day 001：Unicode、字符、字节和 Token](./docs/week-01/day-001.md)、[Day 002：文本规范化与中英文预处理](./docs/week-01/day-002.md)
+
+## Codex Skill
+
+仓库包含可迁移的 [`write-ai-learning-lectures`](./skills/write-ai-learning-lectures/SKILL.md) Skill，用于固化讲义深度、权威资料、代码验证、面试训练和 GitBook 同步流程。

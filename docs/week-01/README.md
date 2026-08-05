@@ -7,10 +7,10 @@
 1. [Unicode、字符、字节和 Token](day-001.md)
 2. [文本规范化与中英文预处理](day-002.md)
 3. [词表、未知词和 OOV](day-003.md)
-4. 字符、单词和子词分词
+4. 字符、单词、子词与字节级分词
 5. 深入：BPE 的合并过程
 6. 深入：特殊 Token 与 Attention Mask
-7. 实验：比较不同 Tokenizer 的切分结果
+7. 实验：比较 WordPiece、BPE、Unigram 与字节级 Tokenizer
 
 ## 本周完成标准
 
