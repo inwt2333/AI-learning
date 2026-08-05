@@ -5,8 +5,6 @@
 ## 学习计划
 
 * [112 天学习路线](roadmap/README.md)
-* [每日学习方法](learning-method.md)
-* [笔记模板](notes-template.md)
 
 ## 第一部分：NLP 基础
 
