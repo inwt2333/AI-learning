@@ -11,6 +11,7 @@
 * [第 1 周：文本、分词与 Tokenizer](week-01/README.md)
   * [Day 001：Unicode、字符、字节和 Token](week-01/day-001.md)
   * [Day 002：文本规范化与中英文预处理](week-01/day-002.md)
+  * [Day 003：词表、未知词和 OOV](week-01/day-003.md)
 
 ## 后续部分
 
