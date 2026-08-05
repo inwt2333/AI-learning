@@ -12,6 +12,7 @@
   * [Day 001：Unicode、字符、字节和 Token](week-01/day-001.md)
   * [Day 002：文本规范化与中英文预处理](week-01/day-002.md)
   * [Day 003：词表、未知词和 OOV](week-01/day-003.md)
+  * [Day 004：字符、单词、子词与字节级分词](week-01/day-004.md)
 
 ## 后续部分
 

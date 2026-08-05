@@ -11,7 +11,9 @@
 - 面向实习面试的原理追问、手写题与项目故障分析
 - 由 GitBook 修改后直接沉淀的正式学习笔记
 
-当前已完成：[Day 001：Unicode、字符、字节和 Token](./docs/week-01/day-001.md)、[Day 002：文本规范化与中英文预处理](./docs/week-01/day-002.md)
+当前已完成：[Day 001：Unicode、字符、字节和 Token](./docs/week-01/day-001.md)、[Day 002：文本规范化与中英文预处理](./docs/week-01/day-002.md)、[Day 003：词表、未知词和 OOV](./docs/week-01/day-003.md)
+
+最新讲义：[Day 004：字符、单词、子词与字节级分词](./docs/week-01/day-004.md)
 
 ## Codex Skill
 
