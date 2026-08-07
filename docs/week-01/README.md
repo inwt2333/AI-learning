@@ -9,8 +9,8 @@
 3. [词表、未知词和 OOV](day-003.md)
 4. [字符、单词、子词与字节级分词](day-004.md)
 5. [深入：BPE 的合并过程](day-005.md)
-6. 深入：特殊 Token 与 Attention Mask
-7. 实验：比较 WordPiece、BPE、Unigram 与字节级 Tokenizer
+6. [深入：特殊 Token、Attention Mask 与模型输入](day-006.md)
+7. [实验：比较 WordPiece、BPE、Unigram 与字节级 Tokenizer](day-007.md)
 
 ## 本周完成标准
 

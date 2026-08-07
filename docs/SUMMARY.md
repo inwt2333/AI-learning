@@ -14,6 +14,8 @@
   * [Day 003：词表、未知词和 OOV](week-01/day-003.md)
   * [Day 004：字符、单词、子词与字节级分词](week-01/day-004.md)
   * [Day 005：BPE 的合并过程](week-01/day-005.md)
+  * [Day 006：特殊 Token、Attention Mask 与模型输入](week-01/day-006.md)
+  * [Day 007：比较 WordPiece、BPE、Unigram 与字节级 Tokenizer](week-01/day-007.md)
 
 ## 后续部分
 
