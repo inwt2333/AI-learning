@@ -13,7 +13,7 @@
   * [Day 002：文本规范化与中英文预处理](week-01/day-002.md)
   * [Day 003：词表、未知词和 OOV](week-01/day-003.md)
   * [Day 004：字符、单词、子词与字节级分词](week-01/day-004.md)
-  * [Day 005：深入——BPE 的合并过程](week-01/day-005.md)
+  * [Day 005：BPE 的合并过程](week-01/day-005.md)
 
 ## 后续部分
 
