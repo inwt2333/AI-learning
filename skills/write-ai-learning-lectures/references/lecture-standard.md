@@ -26,10 +26,9 @@ Adapt the headings to the topic, but normally cover:
 8. Model-, tokenizer-, language-, or task-specific boundaries.
 9. Engineering tradeoffs and failure modes.
 10. Common misconceptions.
-11. A compact interview section.
-12. Self-test questions with collapsible answers.
-13. Authoritative references annotated by purpose.
-14. A one-page recap.
+11. One shared practice section that integrates the compact interview layer and self-test questions, with collapsible answers where appropriate.
+12. Authoritative references annotated by purpose.
+13. A one-page recap.
 
 Do not force every heading when it would be artificial. Preserve the full explanatory depth.
 
@@ -48,6 +47,7 @@ Do not force every heading when it would be artificial. Preserve the full explan
 * Prefer standard Python and small, explicit functions before high-level frameworks.
 * Explain inputs, outputs, data types, important variables, tensor dimensions, and left-closed/right-open offsets where relevant.
 * Keep examples small enough to trace manually.
+* Add necessary comments to Python examples. Comments should explain inputs and outputs, non-obvious state changes, formulas, boundary handling, or deliberately simplified behavior; do not annotate every obvious assignment or `print()` call.
 * Run representative examples in the workspace before publishing.
 * Copy the actual output into the lecture; do not predict output from memory.
 * If a dependency or model download is required, show the minimal installation/loading step.
@@ -86,4 +86,6 @@ Before publishing, confirm:
 * Equations define their symbols and connect back to code.
 * Code output has been verified.
 * The learner can explain both mechanism and tradeoff.
+* Interview preparation and self-test questions appear under one shared second-level practice heading rather than as two separate lecture sections.
+* Python examples include enough comments for the intended learner to trace the important logic without turning every line into prose.
 * References are authoritative and optional rather than a hidden reading burden.

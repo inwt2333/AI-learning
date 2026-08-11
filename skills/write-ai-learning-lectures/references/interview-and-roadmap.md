@@ -18,9 +18,11 @@ Modern coverage should include, where prerequisites allow:
 * RAG evaluation, error attribution, iterative retrieval and regression tests;
 * tool calling, explicit workflows/state machines, MCP, tracing, permissions and Agent evaluation.
 
-## Daily interview layer
+## Daily practice and interview layer
 
 Keep this compact so it does not replace the lecture.
+
+Place the interview material and self-test questions under one shared second-level practice heading, such as `练习与面试准备`. Use subsections inside that block for the 30-second answer, progressive questions, handwritten task, project defense, and additional self-checks. Do not create a separate top-level `自测题` section.
 
 ### 30-second answer
 
