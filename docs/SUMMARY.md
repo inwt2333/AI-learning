@@ -21,6 +21,7 @@
   * [Day 008：N-gram 语言模型](week-02/day-008.md)
   * [Day 009：数据稀疏、平滑与未知事件概率](week-02/day-009.md)
   * [Day 010：交叉熵与困惑度](week-02/day-010.md)
+  * [Day 011：Bag of Words 与 TF-IDF](week-02/day-011.md)
 
 ## 后续部分
 

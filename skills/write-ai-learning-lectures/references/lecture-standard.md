@@ -42,6 +42,16 @@ Do not force every heading when it would be artificial. Preserve the full explan
 * Distinguish “usually”, “for this model”, and “always”.
 * State when a recommendation depends on the task, training distribution, tokenizer, language, or deployment environment.
 
+## GitBook math and Markdown conventions
+
+GitBook renders math with KaTeX, and its inline delimiter is also `$$`:
+
+* Wrap **inline math in double dollar signs**: `$$|V|$$`. Never use single `$...$`; GitBook does not render it as math, and GitBook-side edits strip the dollar signs, silently turning `$k$` into plain `k` (observed in the Day 009/010 GitBook merges).
+* Keep **display math** as a `$$ ... $$` block on its own lines.
+* Avoid math delimiters inside headings and table cells; GitBook strips them there. Write plain text such as `1+ln(tf)` or `ln(N/df)` instead.
+* Prefer `*` bullets and bare code fences for plain-text blocks; GitBook normalizes `-` bullets and removes the `text` fence language, so matching its output keeps diffs clean.
+* Source for the inline `$$` rule: GitBook docs on [inline content](https://gitbook.com/docs/create-content/formatting/inline.md) and [Math & TeX blocks](https://gitbook.com/docs/create-content/blocks/math-and-tex.md).
+
 ## Code standard
 
 * Prefer standard Python and small, explicit functions before high-level frameworks.

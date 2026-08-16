@@ -7,7 +7,7 @@
 1. [N-gram 语言模型](day-008.md)
 2. [数据稀疏、平滑与未知事件概率](day-009.md)
 3. [交叉熵与困惑度](day-010.md)
-4. Bag of Words 与 TF-IDF
+4. [Bag of Words 与 TF-IDF](day-011.md)
 5. 深入：交叉熵为什么能评价语言模型
 6. 深入：BM25 为什么优于简单 TF-IDF
 7. 实验：实现一个带 BM25 的小型文档搜索器
