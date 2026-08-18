@@ -23,6 +23,7 @@
   * [Day 010：交叉熵与困惑度](week-02/day-010.md)
   * [Day 011：Bag of Words 与 TF-IDF](week-02/day-011.md)
   * [Day 012：交叉熵为什么能评价语言模型](week-02/day-012.md)
+  * [Day 013：BM25 为什么优于简单 TF-IDF](week-02/day-013.md)
 
 ## 后续部分
 
