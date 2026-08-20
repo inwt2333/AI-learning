@@ -57,7 +57,7 @@ GitBook renders math with KaTeX, and its inline delimiter is also `$$`:
 * Prefer standard Python and small, explicit functions before high-level frameworks.
 * Explain inputs, outputs, data types, important variables, tensor dimensions, and left-closed/right-open offsets where relevant.
 * Keep examples small enough to trace manually.
-* Add necessary comments to Python examples. Comments should explain inputs and outputs, non-obvious state changes, formulas, boundary handling, or deliberately simplified behavior; do not annotate every obvious assignment or `print()` call.
+* Add detailed comments to Python examples so a learner with limited coding confidence can trace them line by line. Every function's docstring states its inputs, outputs, and data shapes; each non-obvious line or idiom (`dict.get`, `setdefault`, `sorted` with `key`, `enumerate`, comprehensions, set operations, tuple unpacking, `lambda`) gets a short inline note in plain Chinese; comments show what key intermediate data looks like (for example `此时 scores = {0: 2.83}`). Do not annotate obvious assignments or `print()` calls, and never change code logic just to add comments.
 * Run representative examples in the workspace before publishing.
 * Copy the actual output into the lecture; do not predict output from memory.
 * If a dependency or model download is required, show the minimal installation/loading step.
