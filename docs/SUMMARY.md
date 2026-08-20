@@ -26,6 +26,9 @@
   * [Day 013：BM25 为什么优于简单 TF-IDF](week-02/day-013.md)
   * [Day 014：实现一个带 BM25 的小型文档搜索器](week-02/day-014.md)
 
+* [第 3 周：词向量与神经网络训练](week-03/README.md)
+  * [Day 015：分布式假设、向量相似度与 Embedding](week-03/day-015.md)
+
 ## 后续部分
 
 * [第 3–4 周：经典 NLP 与序列模型](hou-xu-bu-fen/di-24-zhou-jing-dian-nlp-yu-xu-lie-mo-xing.md)

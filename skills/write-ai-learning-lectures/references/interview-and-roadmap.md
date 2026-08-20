@@ -22,7 +22,7 @@ Modern coverage should include, where prerequisites allow:
 
 Keep this compact so it does not replace the lecture.
 
-Place the interview material and self-test questions under one shared second-level practice heading, such as `练习与面试准备`. Use subsections inside that block for the 30-second answer, progressive questions, handwritten task, project defense, and additional self-checks. Do not create a separate top-level `自测题` section.
+Place the interview material under one shared second-level practice heading, such as `练习与面试准备`. Use subsections inside that block for the 30-second answer, progressive questions, handwritten task, and project defense. Do not create a separate top-level `自测题` section. Do not append a `自测清单` checklist: the user has deleted those checklists from published lectures via GitBook edits, so new lectures must not include them.
 
 ### 30-second answer
 

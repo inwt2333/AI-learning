@@ -43,7 +43,7 @@ Choose the matching workflow:
 * Explain definitions, data flow, equations, variables, tensor shapes, implementation behavior, tradeoffs, and failure modes in plain Chinese.
 * Prefer stable principles over framework fashion, while including modern systems when they are materially relevant.
 * Separate facts from inferences and distinguish model-specific behavior from universal rules.
-* Put interview preparation and self-test questions under one shared second-level practice section. Do not create separate top-level lecture sections for them.
+* Put interview preparation under one shared second-level practice section. Do not create separate top-level lecture sections for it, and do not append a `自测清单` checklist (the user removed those from published lectures).
 * Add detailed comments to Python examples so a learner with limited coding confidence can trace inputs, outputs, non-obvious steps, boundary handling, and non-obvious Python idioms (`dict.get`, `sorted` with `key`, `enumerate`, comprehensions, `lambda`). Show what key intermediate data looks like; avoid comments that merely restate obvious syntax.
 * Preserve user-written outputs, comments, deletions, formatting decisions, and checked progress unless a correction is explicitly needed.
 * Do not overwrite the user's GitBook edits with an older local version.

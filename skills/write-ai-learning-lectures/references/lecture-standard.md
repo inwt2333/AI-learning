@@ -26,7 +26,7 @@ Adapt the headings to the topic, but normally cover:
 8. Model-, tokenizer-, language-, or task-specific boundaries.
 9. Engineering tradeoffs and failure modes.
 10. Common misconceptions.
-11. One shared practice section that integrates the compact interview layer and self-test questions, with collapsible answers where appropriate.
+11. One shared practice section that integrates the compact interview layer, with collapsible answers where appropriate. Do not append a `自测清单` checklist; the user removed those from published lectures.
 12. Authoritative references annotated by purpose.
 13. A one-page recap.
 
