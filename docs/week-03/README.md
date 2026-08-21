@@ -5,7 +5,7 @@
 ## 每日安排
 
 1. [分布式假设、向量相似度与 Embedding](day-015.md)
-2. Word2Vec 的训练目标
+2. [Word2Vec 的训练目标](day-016.md)
 3. Skip-gram 与 CBOW 的样本构造
 4. 负采样如何降低计算量
 5. 深入：Softmax、交叉熵与梯度更新

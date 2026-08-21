@@ -28,6 +28,7 @@
 
 * [第 3 周：词向量与神经网络训练](week-03/README.md)
   * [Day 015：分布式假设、向量相似度与 Embedding](week-03/day-015.md)
+  * [Day 016：Word2Vec 的训练目标](week-03/day-016.md)
 
 ## 后续部分
 
