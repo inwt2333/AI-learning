@@ -31,6 +31,7 @@
   * [Day 016：Word2Vec 的训练目标](week-03/day-016.md)
   * [Day 017：Skip-gram 与 CBOW 的样本构造](week-03/day-017.md)
   * [Day 018：负采样如何降低计算量](week-03/day-018.md)
+  * [Day 019：Softmax、交叉熵与梯度更新](week-03/day-019.md)
 
 ## 后续部分
 
