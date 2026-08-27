@@ -24,7 +24,7 @@ The user has intentionally removed `docs/learning-method.md` and `docs/notes-tem
 * Use `apply_patch` for content edits.
 * Never replace a user-edited page with an older commit wholesale.
 * Use historical versions only to understand intent or recover material the user explicitly requests.
-* When adding a day, update both `docs/SUMMARY.md` and the weekly `README.md`.
+* When adding a day, update both `docs/SUMMARY.md` and the weekly `README.md`: add the 每日安排 link and extend the 概念速查 and 横向对比 tables so the README stays a complete week summary (format rules live in the lecture standard's weekly overview page section).
 * Preserve completed checkboxes in the roadmap.
 * Use GitBook-compatible Markdown and existing frontmatter conventions.
 

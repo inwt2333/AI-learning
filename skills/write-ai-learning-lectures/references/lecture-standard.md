@@ -52,6 +52,18 @@ GitBook renders math with KaTeX, and its inline delimiter is also `$$`:
 * Prefer `*` bullets and bare code fences for plain-text blocks; GitBook normalizes `-` bullets and removes the `text` fence language, so matching its output keeps diffs clean.
 * Source for the inline `$$` rule: GitBook docs on [inline content](https://gitbook.com/docs/create-content/formatting/inline.md) and [Math & TeX blocks](https://gitbook.com/docs/create-content/blocks/math-and-tex.md).
 
+## Weekly overview page
+
+Each `docs/week-XX/README.md` is the week's index, summary, comparison sheet, and quick reference — not a bare link list. Keep these sections in order:
+
+1. The one-line week theme (existing intro).
+2. 每日安排: the numbered links to each day.
+3. 概念速查: one table per week with the columns `概念 | 关键定义 | 公式 / 数量关系 | 详见` (one row per major concept, linked to its day). Definitions and formulas must be copied or compressed from that week's published lectures — never introduce new claims, formulas, or numbers that the lectures do not contain.
+4. 横向对比: small comparison tables for the week's competing options (algorithms, metrics, representations, easily confused pairs), each sourced from the lectures' own comparisons, with the source day named in the heading. Add a short sourced note line only when it prevents a real misreading.
+5. 本周完成标准 (existing).
+
+Apply the GitBook table conventions above: plain-text formulas, no math delimiters in cells, and escape literal pipes in cells as `\|`. When adding a day, extend the 概念速查 and 横向对比 tables in the same change so the README stays a complete summary of the week; when creating a new week's README, build all five sections from that week's lectures.
+
 ## Code standard
 
 * Prefer standard Python and small, explicit functions before high-level frameworks.
