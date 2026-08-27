@@ -35,6 +35,9 @@
   * [Day 020：静态词向量与上下文表示](week-03/day-020.md)
   * [Day 021：训练小型词向量并分析多义词与近邻](week-03/day-021.md)
 
+* [第 4 周：RNN、Seq2Seq 与序列解码](week-04/README.md)
+  * [Day 022：RNN 数据流、隐藏状态与张量形状](week-04/day-022.md)
+
 ## 后续部分
 
 * [第 3–4 周：经典 NLP 与序列模型](hou-xu-bu-fen/di-24-zhou-jing-dian-nlp-yu-xu-lie-mo-xing.md)
