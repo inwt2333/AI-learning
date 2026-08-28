@@ -37,6 +37,7 @@
 
 * [第 4 周：RNN、Seq2Seq 与序列解码](week-04/README.md)
   * [Day 022：RNN 数据流、隐藏状态与张量形状](week-04/day-022.md)
+  * [Day 023：BPTT、梯度消失与长期依赖](week-04/day-023.md)
 
 ## 后续部分
 
